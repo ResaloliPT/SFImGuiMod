@@ -1,6 +1,8 @@
 #include "ExampleActor.h"
-#include "util/Logging.h"
+
+#include "ImGuiLogger.h"
+#include "SML\util\Logging.h"
 
 void AExampleActor::DoStuff() {
-	SML::Logging::info("ExampleActor");
+	ImGui::ImGuiLogger::LogInfo("ExampleActor");
 }

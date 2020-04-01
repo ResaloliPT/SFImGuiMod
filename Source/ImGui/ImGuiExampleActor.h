@@ -3,10 +3,10 @@
 #include "CoreMinimal.h"
 #include "CoreUObject.h"
 #include "GameFramework/Actor.h"
-#include "ExampleActor.generated.h"
+#include "ImGuiExampleActor.generated.h"
 
 UCLASS()
-class IMGUI_API AExampleActor : public AActor {
+class IMGUI_API AImGuiExampleActor : public AActor {
 	GENERATED_BODY()
 public:
 	UFUNCTION(BlueprintCallable)

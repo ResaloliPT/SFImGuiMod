@@ -6,7 +6,7 @@
 #include "ExampleActor.generated.h"
 
 UCLASS()
-class EXAMPLEMOD_API AExampleActor : public AActor {
+class IMGUI_API AExampleActor : public AActor {
 	GENERATED_BODY()
 public:
 	UFUNCTION(BlueprintCallable)
